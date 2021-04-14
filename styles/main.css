@@ -41,6 +41,7 @@ html{
 
 .navbar{
     display: flex;
+    position: sticky;
     background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     border-bottom: 2px solid white;
 }
