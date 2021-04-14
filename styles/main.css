@@ -41,12 +41,13 @@ html{
 
 .navbar{
     display: flex;
-    position: sticky;
     background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     border-bottom: 2px solid white;
+    padding: 5px 0px;
 }
 
 .header{
+    margin-top: 3%;
     font-size: 4.35rem;
 
     animation: items-anim 1.5s linear 0s 1 both;
