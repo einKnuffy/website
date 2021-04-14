@@ -56,8 +56,9 @@ html{
     font-family: 'Dancing Script', cursive;
     padding: 7.5% 0;
     font-size: 4.35rem;
-    animation: items-intro 1.5s linear 0s 1 both;
-    -webkit-animation: items-intro 1.5s linear 0s 1 both;
+    text-shadow: 0px 0px 5px black;
+    animation: items-intro 1.5s linear 0s 1 both, header-stay 5s linear 3s infinite both;
+    -webkit-animation: items-intro 1.5s linear 0s 1 both, header-stay 5s linear 3s infinite both;
 }
 
 @keyframes items-intro{
@@ -70,5 +71,29 @@ html{
         opacity: 1;
         filter: blur(0px);
         -webkit-filter: blur(0px);
+    }
+}
+
+@keyframes header-stay{
+    0%, 100%{
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+    25%{
+        transform: translate(0px, 7px);
+        -webkit-transform: translate(0px, 7px);
+        -moz-transform: translate(0px, 7px);
+        -ms-transform: translate(0px, 7px);
+        -o-transform: translate(0px, 7px);
+    }
+    75%{
+        transform: translate(0px, -7px);
+        -webkit-transform: translate(0px, -7px);
+        -moz-transform: translate(0px, -7px);
+        -ms-transform: translate(0px, -7px);
+        -o-transform: translate(0px, -7px);
     }
 }
