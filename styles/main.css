@@ -78,7 +78,7 @@ html{
 
 .body--heading{
     font-size: 3rem;
-    margin: 25px auto 75px auto;
+    margin: 40px auto 75px auto;
 }
 
 .body--text{
@@ -100,8 +100,8 @@ html{
 }
 
 .slideshow--slides:hover{
-    animation: slideshow-anim 2s;
-    -webkit-animation: slideshow-anim 2s;
+    animation: slideshow-anim 1.5s;
+    -webkit-animation: slideshow-anim 1.5s;
 }
 
 .slide-2{
