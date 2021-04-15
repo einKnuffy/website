@@ -42,16 +42,17 @@ html{
 }
 
 .navbar{
-    position: sticky;
     top: 0%;
+    position: sticky;
+    padding: 10px 0px;
     display: flex;
     overflow: hidden;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background: linear-gradient(0deg, rgba(35, 41, 67, 0.6), rgba(35, 41, 67, 0.6));
     border-bottom: 2px solid white;
     width: 100%;
 }
 
-.navbar-items a{
+.navbar-items{
     float: left;
     display: block;
 }
@@ -85,27 +86,22 @@ html{
     font-size: 2rem;
 }
 
-.body--slideshow{
+.body--showcase{
+    display: flex;
+    margin-top: 300px;
+}
+
+.showcase--row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase--row{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 125px auto 0px auto;
-}
-
-.slideshow--slides{
-    flex: 1 1 auto;
-    width: 300px;
-    margin: 100px;
-}
-
-.slideshow--slides:hover{
-    animation: slideshow-anim 1.5s;
-    -webkit-animation: slideshow-anim 1.5s;
-}
-
-.slide-2{
-    width: 600px;
 }
 
 @keyframes items-anim{
@@ -130,22 +126,17 @@ html{
         -o-transform: translate(0, 0);
     }
     25%{
-        transform: translate(0, 10%);
-        -webkit-transform: translate(0, 10%);
-        -moz-transform: translate(0, 10%);
-        -ms-transform: translate(0, 10%);
-        -o-transform: translate(0, 10%);
-    }
-    75%{
-        transform: translate(0, -10%);
-        -webkit-transform: translate(0, -10%);
-        -moz-transform: translate(0, -10%);
-        -ms-transform: translate(0, -10%);
-        -o-transform: translate(0, -10%);
-    }
+        transform: translate(0, 0.5rem);
+        -webkit-transform: translate(0, 0.5rem);
+        -moz-transform: translate(0, 0.5rem);
+        -ms-transform: translate(0, 0.5rem);
+        -o-transform: translate(0, 0.5rem);
 }
-
-@keyframes slideshow-anim{
-    0%, 100%{ filter: blur(0px) ; -webkit-filter: blur(0px) ; }
-    50%{ filter: blur(5px) ; -webkit-filter: blur(5px) ; }
+    75%{
+        transform: translate(0, -0.5rem);
+        -webkit-transform: translate(0, -0.5rem);
+        -moz-transform: translate(0, -0.5rem);
+        -ms-transform: translate(0, -0.5rem);
+        -o-transform: translate(0, -0.5rem);
+}
 }
