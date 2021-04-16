@@ -113,6 +113,9 @@ html{
 
 .showcase--icon{
     margin-bottom: 10px;
+    color: rgb(25, 31, 57);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
 }
 
 .showcase--text{
