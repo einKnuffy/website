@@ -39,6 +39,7 @@ html{
     text-align: center;
     animation: items-anim 1s linear 0s 1 both;
     -webkit-animation: items-anim 1s linear 0s 1 both;
+    overflow: hidden;
 }
 
 .navbar{
@@ -120,6 +121,11 @@ html{
 
 .showcase--text{
     margin-top: 10px;
+    font-size: 3rem;
+}
+
+.rnd--text{
+    margin-top: 100px;
     font-size: 3rem;
 }
 
