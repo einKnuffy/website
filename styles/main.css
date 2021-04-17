@@ -139,7 +139,6 @@ html{
 
 progress{
     width: 50%;
-    height: 30px;
     appearance: none;
     -webkit-appearance: none;
 }
