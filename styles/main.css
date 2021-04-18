@@ -1,12 +1,12 @@
 * {
-    color: white;
-    font-size: 20px;
     padding: 0px;
     margin: 0px;
-    width: 100%;
+    box-sizing: border-box;
 }
 
 html{
+    color: white;
+    font-size: 20px;
     background-image: url(./img/static/background.jpg);
     background-size: cover;
     background-position-y: center;
