@@ -144,18 +144,17 @@ progress{
     appearance: none;
     -webkit-appearance: none;
 }
-
 progress::-webkit-progress-bar {
     height: 1rem;
     background-color: #232943;
     border-radius: 100px;
-    box-shadow: 0px 0px 3px black inset;
+    box-shadow: 0rem 0rem 0.125rem rgb(0, 0, 0) inset;
 }
 
 progress::-webkit-progress-value{
     background-color: #ffffff;
     border-radius: 5rem;
-    box-shadow: 0rem 0rem 0.5rem #232943 inset;
+    box-shadow: 0rem 0rem 0.3rem #232943 inset;
     -webkit-border-radius: 5rem;
     -moz-border-radius: 5rem;
     -ms-border-radius: 5rem;
