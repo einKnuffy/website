@@ -162,6 +162,9 @@ progress::-webkit-progress-value{
 }
 
 @media (max-width: 600px){
+    .navbar{
+        padding: 1rem;
+    }
     .header{
         font-size: 5.5rem;
     }
@@ -179,6 +182,9 @@ progress::-webkit-progress-value{
 @media (max-width: 400px){
     *{
         font-size: 17.5px;
+    }
+    .navbar{
+        padding: 0.5rem;
     }
 }
 
