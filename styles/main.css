@@ -61,7 +61,7 @@ html{
 }
 
 .header{
-    margin-top: 12.5rem;
+    margin-top: 14rem;
     font-size: 7.5rem;
 }
 
@@ -70,7 +70,7 @@ html{
 }
 
 .scrolldown{
-    margin: 5rem 0px 5.5rem 0rem;
+    margin: 4.5rem 0px 6.5rem 0rem;
     animation: scrolldown 2s linear 0s infinite both;
     -webkit-animation: scrolldown 2s linear 0s infinite both;
 }
@@ -185,6 +185,11 @@ progress::-webkit-progress-value{
     }
     .navbar{
         padding: 0.5rem;
+    }
+}
+@media (max-width: 300px) {
+    *{
+        font-size: 13px;
     }
 }
 
