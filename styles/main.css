@@ -12,17 +12,6 @@ html{
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    animation: bg-anim 30s linear 0s infinite both;
-    -webkit-animation: bg-anim 30s linear 0s infinite both;
-}
-
-@keyframes bg-anim{
-    0%, 25%, 75%, 100%{
-        background-image: url(./img/static/background.jpg);
-    }
-    33%, 66%{
-        background-image: url(./img/static/background2.jpeg);
-    }
 }
 
 ::-webkit-scrollbar{
